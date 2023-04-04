@@ -1,0 +1,9 @@
+Equipo ---------
+git init
+git remote add origin "url del repositorio"
+git remote -v
+git pull origin "arbol que queremos recuperar"
+git checkout develop
+-----------------------------------
+
+git push
