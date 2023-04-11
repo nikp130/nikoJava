@@ -1,0 +1,42 @@
+Cargar un archivo o todo en github Por Primera Vez
+-----------------------------------------
+
+git init
+git remote add origin "url del repositorio(sin comillas)"
+git remote -v      // sirve para verificar que esta unido al repositorio
+git status         // verifica el estado de los cambios
+git add origin "rama a la que de va a agregar(sin comillas)"
+git commit -m "Aqui va el comentario"   //Sirve para comentar el cambio echo 
+git push origin "rama a la que de va a agregar(sin comillas)"  // sube el contenido al repositorio de acuerdo a la rama *recordar que el nombre de la "rama" debe ser la misma en local y nube
+
+
+///Despues de hacer esto y queremos subir el cambio 
+
+git status
+git add .             //(para que tome todos los cambio en todos los archivos)
+
+git commit -m  "Aqui el comentario que hicieron"  
+
+git push origin master (o main dependiendo de lo que tenga)
+
+
+
+
+Equipo --------- esto sirve cuando queremos trabajar con un repositorio que no es nuestro
+git init
+git remote add origin "url del repositorio"
+git remote -v
+git pull origin "arbol que queremos recuperar" 
+git checkout develop
+-----------------------------------
+
+------------------------------------------Creacion de Repositorio
+echo "# HTML-Project" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+
+git branch -M main(o master) // sirve para cambiar rama
+
+git remote add origin "url del repositorio"
+git push -u origin main

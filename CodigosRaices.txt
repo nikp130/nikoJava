@@ -1,0 +1,26 @@
+CTRL + SPACIO
+
+Linea de codigo madre:
+public static void main(String[] args)
+Scanner leer = new Scanner(System.in); // Se utiliza para leer los datos del programa.
+
+----------------TIPOS---------------
+
+byte     // Almacena un numero entero. Valor max es -128 a 127
+short    // "" Valor max es -32,768 a 32,767
+int      // Guarda un numero
+long     // Guarda un numero gigante
+
+float    // Numero con coma 0,5
+double   // Decimal con precision 
+
+boolean  // Valores de Verdad y Falso
+char     // Solo almacena una letra y se usa las comillas simples 'c'
+string   // Guarda texto o frase
+
+
+
+System.out.println ("hola");           // Muestra el mensaje en la consola
+System.out.print ("hola");             // Muestra el mensaje SIN SALTAR
+nombre = leer next();                  // La consola lee el dato de la variable ingresado
+
