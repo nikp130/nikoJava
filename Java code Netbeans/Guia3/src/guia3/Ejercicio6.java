@@ -18,16 +18,15 @@ public class Ejercicio6 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-         Scanner sc = new Scanner(System.in);
-        int opcion = 0;
+        Scanner sc = new Scanner(System.in);
+        int opcion ;
         int numero1, numero2;
-         System.out.println("Ingrese dos números enteros positivos:");
-            numero1 = sc.nextInt();
-            numero2 = sc.nextInt();
-        
-        
+        System.out.println("Ingrese dos números enteros positivos:");
+        numero1 = sc.nextInt();
+        numero2 = sc.nextInt();
+
         do {
-           
+
             System.out.println("MENU DE OPERACIONES");
             System.out.println("1. Suma");
             System.out.println("2. Resta");
@@ -36,7 +35,7 @@ public class Ejercicio6 {
             System.out.println("5. Salir");
             System.out.print("Ingrese una opción: ");
             opcion = sc.nextInt();
-            switch(opcion) {
+            switch (opcion) {
                 case 1:
                     System.out.println("La suma es: " + (numero1 + numero2));
                     break;
@@ -47,7 +46,7 @@ public class Ejercicio6 {
                     System.out.println("La multiplicación es: " + (numero1 * numero2));
                     break;
                 case 4:
-                    if(numero2 == 0) {
+                    if (numero2 == 0) {
                         System.out.println("No se puede dividir por cero");
                     } else {
                         System.out.println("La división es: " + ((double) numero1 / numero2));
@@ -56,7 +55,7 @@ public class Ejercicio6 {
                 case 5:
                     System.out.print("¿Está seguro que desea salir del programa (S/N)? ");
                     char respuesta = sc.next().charAt(0);
-                    if(respuesta == 'S' || respuesta == 's') {
+                    if (respuesta == 'S' || respuesta == 's') {
                         System.out.println("¡Hasta pronto!");
                         return;
                     } else {
@@ -66,10 +65,10 @@ public class Ejercicio6 {
                 default:
                     System.out.println("Opción inválida. Por favor ingrese una opción válida.");
             }
-        } while(opcion != 5);
+        } while (opcion != 5);
     }
-        
-        
+
+
         
         
         

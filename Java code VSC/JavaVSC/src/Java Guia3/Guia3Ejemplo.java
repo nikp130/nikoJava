@@ -1,7 +1,7 @@
 import java.util.Scanner; // Este es el importe de la clase Scanner
 
 import javax.lang.model.util.ElementScanner6;
-public class App {
+public class App Guia3Ejemplo {
     public static void main(String[] args) throws Exception {
         System.out.println("Clasififique la peli de 1 al 5 estrellas");
         Scanner leer = new Scanner(System.in); // Creamos el Scanner

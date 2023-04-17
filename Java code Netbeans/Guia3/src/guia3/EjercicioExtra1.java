@@ -29,7 +29,7 @@ public class EjercicioExtra1 {
         horas %= 24; // Obtenemos el resto de horas
 
         System.out.printf("%d minutos equivalen a %d días y %d horas.\n", minutos, dias, horas);
-        
+       
         
         
         

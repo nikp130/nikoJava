@@ -24,3 +24,12 @@ System.out.println ("hola");           // Muestra el mensaje en la consola
 System.out.print ("hola");             // Muestra el mensaje SIN SALTAR
 nombre = leer next();                  // La consola lee el dato de la variable ingresado
 
+&&						  // AND 
+|| 						  // OR
+! 						  // Operador logico Not
+
+
+sout
+psmv ///void 
+scain  //scanner
+
