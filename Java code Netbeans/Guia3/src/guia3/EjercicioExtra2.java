@@ -6,8 +6,6 @@ iniciales y los valores finales de cada variable. Utilizar sólo una variable au
  */
 package guia3;
 
-import java.util.Scanner;
-
 /**
  *
  * @author nicol
