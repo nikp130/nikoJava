@@ -1,5 +1,5 @@
 Cargar un archivo o todo en github Por Primera Vez
------------------------------------------
+---------------------------------------------------
 
 git init
 git remote add origin "url del repositorio(sin comillas)"
@@ -8,8 +8,19 @@ git status         // verifica el estado de los cambios
 git add origin "rama a la que de va a agregar(sin comillas)"
 git commit -m "Aqui va el comentario"   //Sirve para comentar el cambio echo 
 git push origin "rama a la que de va a agregar(sin comillas)"  // sube el contenido al repositorio de acuerdo a la rama *recordar que el nombre de la "rama" debe ser la misma en local y nube
+----------------------------------------------------
+git branch <nombre-de-tu-rama>					//cambio de rama
+git checkout -b <nombre-de-tu-rama>					//cambio o creacion de rama(de no existir)
+git merge <nombre-de-tu-rama> 					//Unificar rama con la actual posicionada
+:q                       						// sale del editor de texto 
+git merge ramagit -m “Esto es un merge con mensaje”		//Unificar rama con la actual posicionada y comentar el cambio
+----------------------------------------------------
+Borrado de Rama
 
-
+git branch -d <rama-a-borrar>
+git branch -D <rama-a-borrar>            //Borrado Forzado
+git push origin --delete <rama-a-borrar>   // Borra un Branch en el repositorio remoto
+----------------------------------------------------
 ///Despues de hacer esto y queremos subir el cambio 
 
 git status
@@ -26,6 +37,10 @@ Equipo --------- esto sirve cuando queremos trabajar con un repositorio que no e
 git init
 git remote add origin "url del repositorio"
 git remote -v
+git branch -a            // muestra las ramas del repositorio
+:wq.                    // para salir de la pantalla de texto
+git checkout <nombre-de-tu-rama>                //permite moverte a alguna rama existente
+git show-branch          //Esto nos muestra todas las ramas del proyecto con sus commits realizados
 git pull origin "arbol que queremos recuperar" 
 git checkout develop
 -----------------------------------
